@@ -1,0 +1,114 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100%; 
+
+    background-image: url("../IMG/Lr9_BG1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.green {
+    border: 4px solid rgba(48, 129, 32, 0.877);
+    border-radius: 5vh;
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.gray {
+    background-color: gray;
+    border: 6px solid rgba(48, 129, 32, 0.877);
+    height: 15vh;
+    position: absolute;
+    font-size: 2vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    background-image: url("../IMG/center.jpg");
+}
+
+.main {
+    background-color: rgba(75, 236, 183, 0.651);
+    border-radius: 30px;
+    border: 2vh solid rgba(48, 129, 32, 0.877);;
+    text-align: center;
+    height: 80vh;
+    background-image: url("../IMG/Main_BG.jpg");
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.filler-row {
+    height: 10%;
+}
+
+.middle-row {
+    height: 4%;
+}
+
+.content-row {
+    height: 38%;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.text-container{
+    height: 20%;
+    width: 95%;
+    background-color: rgba(75, 236, 183, 0.651);
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+}
+
+.left-align{
+    justify-content: left;
+    padding-left: 2vh;
+    border-left: 4px solid rgba(48, 129, 32, 0.877);
+}
+
+.right-align{
+    justify-content: right;
+    padding-right: 2vh;
+    border-right: 4px solid rgba(48, 129, 32, 0.877);
+}
+
+.round-top{
+    border-radius: 20px 20px 0 0;
+    border-top: 4px solid rgba(48, 129, 32, 0.877);
+}
+
+.round-bottom{
+    border-radius: 0 0 20px 20px;
+    border-bottom: 4px solid rgba(48, 129, 32, 0.877);
+}
+
+.margin-right {
+    margin-right: 20px;
+}
+
+.green:hover{
+    transform: scale(1.05);
+}
