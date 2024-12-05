@@ -8,7 +8,7 @@ body {
     align-items: center;
     height: 100%; 
 
-    background-image: url("../IMG/Lr9_BG1.jpg");
+    background-image: url("IMG/Lr9_BG1.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -41,7 +41,7 @@ body {
     display: flex;
     align-items: center;
     z-index: 10;
-    background-image: url("../IMG/center.jpg");
+    background-image: url("IMG/center.jpg");
 }
 
 .main {
@@ -50,7 +50,7 @@ body {
     border: 2vh solid rgba(48, 129, 32, 0.877);;
     text-align: center;
     height: 80vh;
-    background-image: url("../IMG/Main_BG.jpg");
+    background-image: url("IMG/Main_BG.jpg");
     background-position: center;
     background-size: cover;
 
